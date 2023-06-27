@@ -1,0 +1,12 @@
+const express = require('express');
+
+const playerGigsController = require('../controllers/playersGigs');
+
+const router = express.Router();
+
+router.get('/', playerGigsController.getPlayers, (req, res, next) => {
+    console.log('here at pg routes at least')
+    // res.status(201).json({ puppies: res.locals.puppies });
+});
+
+module.exports = router;

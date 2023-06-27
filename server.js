@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
-app.use(bodyParser.json());
+const playersGigsRoutes = require('./routes/playersGigs');
 
+app.use(bodyParser.json());
 
 console.log('loooo this is cool')
 
@@ -17,10 +18,8 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use('/players', playersGigsRoutes);
 
-
-app.get('/clicked', (req, res) => {
-    res.status(201).json({ answer: 'hello back' })
-})
+console.log(playersGigsRoutes)
 
 app.listen(3000, () => console.log(`Listening on PORT: 3000`));
