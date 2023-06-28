@@ -20,6 +20,5 @@ app.use((req, res, next) => {
 
 app.use('/players', playersGigsRoutes);
 
-console.log(playersGigsRoutes)
 
 app.listen(3000, () => console.log(`Listening on PORT: 3000`));
