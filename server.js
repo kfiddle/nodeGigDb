@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 
 const playersGigsRoutes = require('./routes/playersGigs');
 const jobsRoutes = require('./routes/jobs');
+const speaksRoutes = require('./routes/speaks');
 
 app.use(bodyParser.json());
 
@@ -21,6 +22,8 @@ app.use((req, res, next) => {
 
 app.use('/players', playersGigsRoutes);
 app.use('/jobs', jobsRoutes);
+app.use('/speaks', speaksRoutes);
 
 
 app.listen(3000, () => console.log(`Listening on PORT: 3000`));
+
