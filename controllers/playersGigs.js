@@ -4,16 +4,14 @@ const db = require('../dbConnection/elephantConnect');
 const playerGigsController = {};
 
 playerGigsController.getPlayers = async (req, res, next) => {
-    console.log('we made it here')
     
-    const queryString = 'SELECT * FROM dogs';
+    const queryString = 'SELECT * FROM players';
     try {
-        const answer = await db.query(queryString);
-        // res.locals.puppies 
-        console.log(answer.rows);
+        const reply = await db.query(queryString);
+        res.locals.players = reply.rows; 
         return next();
     } catch (err) {
-        console.log('didnt happen')
+        console.log('There was a db error')
     }
 
 };
