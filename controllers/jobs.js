@@ -33,14 +33,21 @@ jobsController.createJob = async (req, res, next) => {
     const { id, title, company, salary } = req.body;
     console.log(id, title, company, salary)
 
-    console.log(typeof salary);
 
-    const queryString = `INSERT INTO jobs values(${id}:: DECIMAL, ${title}, ${company}, ${salary}::DECIMAL)`;
-    try { 
+
+    // const queryString = `INSERT INTO jobs values(22, 'Retrain all the .NET people', 'PNC Bank', 250000)`;
+    try {
+
+        let countJobs = await db.query('SELECT COUNT(*) FROM JOBS');
+        console.log(countJobs.rows);
+        let newId = Number(countJobs.rows[0].count) + 1;
+        console.log(newId)
+        const queryString = `INSERT INTO jobs values('${newId}', '${title}', '${company}', '${salary}')`;
+
         let response = await db.query(queryString);
         console.log(response)
     } catch (err) {
-        console.log('db issue dude')
+        console.log(err);
     }
 }
 
