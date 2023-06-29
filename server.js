@@ -9,7 +9,6 @@ const jobsSpeaksRoutes = require('./routes/jobsSpeaks');
 
 app.use(bodyParser.json());
 
-console.log('loooo this is cool')
 
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
