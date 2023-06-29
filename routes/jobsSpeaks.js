@@ -1,6 +1,6 @@
 const express = require('express');
 
-const jobsSpeaksController = require('..controllers/jobsSpeaks')
+const jobsSpeaksController = require('../controllers/jobsSpeaks')
 
 const router = express.Router();
 

@@ -7,6 +7,7 @@ jobsSpeaksController.getSpeaksOnJob = async (req, res, next) => {
     const jobId = req.params.jid;
     
     const queryString = `SELECT name FROM speaks JOIN jobs_speaks js ON js.speaks_id = speaks.id AND js.jobs_id = ${jobId}; `;
+    // http://localhost:3000/jobs_speaks/${clickedJob.id}`
     
     try {
         const reply = await db.query(queryString);
