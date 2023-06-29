@@ -8,4 +8,8 @@ router.get('/', playerGigsController.getPlayers, (req, res, next) => {
     res.status(201).json({ engineers: res.locals.engineers });
 });
 
+router.get('/by_speak/:sid', playerGigsController.getPlayersBySpeak, (req, res, next) => {
+    res.status(201).json({ engineers: res.locals.engineers })
+});
+
 module.exports = router;
