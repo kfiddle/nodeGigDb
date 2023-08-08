@@ -8,7 +8,6 @@
 </div>
 
 
-![icon (1)](https://github.com/kfiddle/nodeGigDb/assets/68034977/c4bbe000-1891-41b6-8962-899bb0db5924)
 
 
 ## Table of Contents
