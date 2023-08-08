@@ -5,7 +5,7 @@
 <div style="display: flex; align-items: center; justify-content: center; flex-direction:row">
   <img src="https://github.com/kfiddle/nodeGigDb/assets/68034977/b4944a49-d388-411c-9062-4f4ab94ffb1f.png" alt="Logo" width="350">
   <div style="margin-left: 20px;">As modern web applications continue to evolve, so does the complexity of managing and visualizing endpoints, fetch requests, and data flow between the client-side, routes, and backend components. As your application scales, keeping track of these connections can quickly turn into a nightmare.
-Enter Harmonode — an Electron-powered development tool that lightens the challenges of endpoint management and visualization. By harnessing the power of ReactFlow, Harmonode empowers users to seamlessly navigate through the web of connections, offering a clear and concise visualization of all routes based on their respective endpoints and associated methods.
+Enter <h4>Harmonode</h4> — an Electron-powered development tool that lightens the challenges of endpoint management and visualization. By harnessing the power of ReactFlow, Harmonode empowers users to seamlessly navigate through the web of connections, offering a clear and concise visualization of all routes based on their respective endpoints and associated methods.
 </div>
 </div>
 
