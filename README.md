@@ -23,7 +23,10 @@
 
 The founding fathers of Harmonode:
 
-- Hamza Ch
-- Jane Smith
+- Hamza Chowdry
+- Eric Dalio
+- Ken Johnston
+- Sebastian Sarmiento
+- Tim Weidinger
 
 <!-- Rest of the content -->
