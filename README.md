@@ -4,13 +4,13 @@
 
 <div style="text-align:center;">
   <div style="text-align:center;">
-  <img src="https://github.com/kfiddle/nodeGigDb/assets/68034977/b4944a49-d388-411c-9062-4f4ab94ffb1f" alt="Logo" width="200">
+  <img src="https://github.com/kfiddle/nodeGigDb/assets/68034977/b4944a49-d388-411c-9062-4f4ab94ffb1f" alt="Logo" width="350">
 </div>
-
-</div>
-
-
 Welcome to my Harmonode!
+</div>
+
+
+
 
 ## Table of Contents
 
