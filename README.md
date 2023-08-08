@@ -2,11 +2,9 @@
 
 
 
-<div style="text-align:center;">
-  <div style="text-align:center;">
-  <img src="https://github.com/kfiddle/nodeGigDb/assets/68034977/b4944a49-d388-411c-9062-4f4ab94ffb1f" alt="Logo" width="350">
-</div>
-Welcome to my Harmonode!
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="https://github.com/kfiddle/nodeGigDb/blob/main/assets/68034977/b4944a49-d388-411c-9062-4f4ab94ffb1f.png" alt="Logo" width="350">
+  <div style="margin-left: 20px;">Welcome to Harmonode!</div>
 </div>
 
 
