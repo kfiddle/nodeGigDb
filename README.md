@@ -12,8 +12,6 @@
 
 Welcome to my Harmonode!
 
-[Jump to Contributors](#contributors)
-
 ## Table of Contents
 
 - [About](#about)
