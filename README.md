@@ -7,5 +7,5 @@ ProtoGraphQL ver. 2.0
 
 [Link to Another Page](folder/another-page.md)
 [Jump to Section](#section-heading)
-#contributers
-#getting started
+(#contributers)
+(#getting started)
